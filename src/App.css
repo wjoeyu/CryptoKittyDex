@@ -1,0 +1,125 @@
+body, html {
+  padding: 10px;
+  font-family: Nunito;
+  font-size: 12px;
+  color: #333;
+  font-size: 16px;
+}
+
+.loading {
+  text-align: center;
+  width: 320px;
+  margin: 20px auto;
+}
+
+.warning {
+  color: #666;
+  padding: 10px 0;
+}
+
+.error {
+  color: tomato;
+  padding: 10px 0;
+}
+
+.cryptokitty {
+  height: 555px;
+  display: inline-block;
+}
+
+.kitty-id {
+  height: 4.3rem;
+  padding: 0 2rem;
+  font-family: Nunito;
+  font-size: 1.8rem;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+  align-items: stretch;
+    -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background: #fff;
+  color: black;
+  border: 2px solid #c23da8;
+  border-radius: .5rem;
+    -webkit-transition: all .2s cubic-bezier(.06,.67,.37,.99);
+  transition: all .2s cubic-bezier(.06,.67,.37,.99);
+  text-decoration: none;
+  margin-right: .5em;
+}
+
+.submit {
+  height: 4.5rem;
+  padding: 0 2rem;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 1.8rem;
+  box-shadow: 0 .2rem 0 0 #c23da8;
+  position: relative;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+  align-items: stretch;
+    -ms-flex-pack: distribute;
+  justify-content: space-around;
+  background: #ef52d1;
+  color: white;
+  border: 2px solid #c23da8;
+  border-radius: .5rem;
+  cursor: pointer;
+    -webkit-transition: all .2s cubic-bezier(.06,.67,.37,.99);
+  transition: all .2s cubic-bezier(.06,.67,.37,.99);
+  text-decoration: none;
+}
+
+.submit:hover {
+  box-shadow: 0 .4rem 0 0 #c23da8;
+}
+
+.rando-kitty {
+  margin-top: 1em;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 1.8rem;
+  cursor: pointer;
+  border-radius: .5rem;
+  background: white;
+  border: 2px solid #2ac748;
+  box-shadow: 0 .2rem 0 0 #2ac748;
+  transition: all .2s cubic-bezier(.06,.67,.37,.99);
+}
+
+.rando-kitty:hover {
+  box-shadow: 0 .4rem 0 0 #2ac748;
+}
+
+.rando-kitty:hover .Header-logo-icon {
+  background-image: url('https://www.cryptokitties.co/icons/logo-hover.gif');
+}
+
+.kitty-info {
+  display: inline-block;
+}
+
+.info-card{
+  display: flex;
+  align-items: center;
+}
+
+.Header-logo-icon {
+  margin-left: 12px;
+  width: 4rem;
+  height: 5.3rem;
+  background-image: url('https://www.cryptokitties.co/icons/logo.svg');
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+}
