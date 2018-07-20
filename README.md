@@ -8,13 +8,13 @@ CryptoKittyDex is a simple UI that will be able to interact with the Ethereum Bl
 
 # Requirements to complete this challenge
 
-- Use the code provided in this repo as a starting point to build your solution
 - Given the address for the CryptoKitties Smart Contract: `0x06012c8cf97bead5deae237070f9587f8e7a266d` and its *ABI*, utilizing the smart contract methods we can query with a CryptoKitty ID and obtain and view a CryptoKitty's:
   - Genes
   - Birth time
   - Generation
   - Picture
 - There is also "Fetch random Kitty" button to fetch a random CryptoKitty from the CATalogue.
+- If an invalid ID is entered, the user will be alerted to enter a valid ID.
 
 ## The interface looks like this:
 
