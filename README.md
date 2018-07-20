@@ -48,7 +48,7 @@ getKitty(id) {
 
 The `Get Random Kitty` component was created by utilizing the smart contract's totalSupply method to obtain the current max CrytoKitty ID in the CATalogue. With the current max ID, we then simply generate a random and valid ID with the randomKittyId function:
 
-##### components/randomKittyId.js
+#### components/randomKittyId.js
 ```Javascript
 export const randomKittyId = (max) => {
   return Math.floor(Math.random() * Math.floor(max));
