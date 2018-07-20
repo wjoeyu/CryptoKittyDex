@@ -23,7 +23,7 @@ CryptoKittyDex is a simple UI that will be able to interact with the Ethereum Bl
 # Running and viewing the CryptoKittyDex Locally on the Browser
 
 - Install and setup Metamask extension in your Chrome browser
-- Install the dependencies with and run the local server
+- Install the dependencies with npm and run the local server
 - The CryptoKittyDex will be viewable at http://localhost:3000/
 
 # Code Overview
