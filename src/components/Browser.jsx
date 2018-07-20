@@ -115,6 +115,7 @@ class Browser extends Component {
                 <span>{this.state.kitty_birth_time}</span>
             </div> : ""}
           </div>
+          
       </div>
     );
   }

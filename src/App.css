@@ -60,6 +60,7 @@ h2 {
   transition: all .2s cubic-bezier(.06,.67,.37,.99);
   text-decoration: none;
   margin-right: .5em;
+  outline: none;
 }
 
 .submit {
@@ -88,10 +89,15 @@ h2 {
     -webkit-transition: all .2s cubic-bezier(.06,.67,.37,.99);
   transition: all .2s cubic-bezier(.06,.67,.37,.99);
   text-decoration: none;
+  outline: none;
 }
 
 .submit:hover {
   box-shadow: 0 .4rem 0 0 #c23da8;
+}
+
+.submit:active {
+  box-shadow: 0 .2rem 0 0 #c23da8;
 }
 
 .rando-kitty {
@@ -107,10 +113,15 @@ h2 {
   border: 2px solid #2ac748;
   box-shadow: 0 .2rem 0 0 #2ac748;
   transition: all .2s cubic-bezier(.06,.67,.37,.99);
+  outline: none;
 }
 
 .rando-kitty:hover {
   box-shadow: 0 .4rem 0 0 #2ac748;
+}
+
+.rando-kitty:active {
+  box-shadow: 0 .2rem 0 0 #2ac748;
 }
 
 .rando-kitty:hover .Header-logo-icon {
