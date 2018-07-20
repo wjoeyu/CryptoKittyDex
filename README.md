@@ -18,7 +18,7 @@ CryptoKittyDex is a simple UI that will be able to interact with the Ethereum Bl
 
 ## The interface looks like this:
 
-![kitty browser](https://i.imgur.com/YQdKma5.png)
+![cryptokittydex](https://github.com/wjoeyu/CryptoKittyDex/blob/master/public/CryptoKittyDexScreenshot.png)
 
 # Running and viewing the CryptoKittyDex Locally on the Browser
 
