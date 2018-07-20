@@ -51,7 +51,7 @@ class Browser extends Component {
         id: id,
         kitty_genes: payload[9],
         kitty_generation: payload[8],
-        kitty_birth_time: new Date(payload[5]*1000).toUTCString().slice(6,16),
+        kitty_birth_time: new Date(payload[5]*1000).toUTCString().slice(5,16),
         kitty_url: `https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/${id}.svg`}));
   }
 

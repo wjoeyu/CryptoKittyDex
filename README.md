@@ -1,43 +1,34 @@
-# Kitty Browser
+# CryptoKittyDex
 
 ![](https://i.imgur.com/A7D2gMb.png)
 
 [CryptoKitties](http://cryptokitties.co) is one of the most popular distributed apps on the Ethereum Network. It's a game that allows players to purchase, collect, breed and sell various types of virtual cats.
 
-To be able to run CryptoKitties on your browser you'll need to install [Metamask](http://metamask.io/) or use a dedicated Ethereum browser like Mist or Parity.
-
-For this challenge you will create a simple UI that will be able to interact with the Ethereum Blockchain, using web3.js and the [drizzle](https://truffleframework.com/docs/drizzle/getting-started) library. This UI will allow the user to type in a CryptoKitty's ID, and will display information about that Kitty.
+CryptoKittyDex is a simple UI that will be able to interact with the Ethereum Blockchain, using web3.js and the [drizzle](https://truffleframework.com/docs/drizzle/getting-started) library. This UI will allow the user to type in a CryptoKitty's ID, and will display information about that Kitty.
 
 # Requirements to complete this challenge
 
 - Use the code provided in this repo as a starting point to build your solution
-- Given the address for the CryptoKitties Smart Contract: `0x06012c8cf97bead5deae237070f9587f8e7a266d` Find its *ABI* (You will need it to complete the challenge)
-- Build a simple UI where the user can type in an ID and display the following information about a Kitty:
+- Given the address for the CryptoKitties Smart Contract: `0x06012c8cf97bead5deae237070f9587f8e7a266d` and its *ABI*, utilizing the smart contract methods we can query with a CryptoKitty ID and obtain and view a CryptoKitty's:
   - Genes
   - Birth time
   - Generation
-- You will get extra points if you also display the Kitty's picture. 🏅
-- You will get extra points if you create a "Fetch random Kitty" button. 🏅
-- Feel free to customize the styles as you wish or use any extra libraries that you need
+  - Picture
+- There is also "Fetch random Kitty" button to fetch a random CryptoKitty from the CATalogue.
 
-
-## The result should look somethig like this:
+## The interface looks like this:
 
 ![kitty browser](https://i.imgur.com/YQdKma5.png)
 
-# Hints
-- You will need to use the `drizzle` instance available on React's context (See components/Browser.js)
-- You will need to explore the smart contract `methods` to find out which one will get you the kitty's info (This operation won't require spending any ether)
+# Running and viewing the CryptoKittyDex Locally on the Browser
 
-# Setting up your dev environment
-
-- Install and setup Metamask in your browser
-- Clone this repo, to be used as a starting point for your solution
-- Install the dependencies and run the development server
+- Install and setup Metamask extension in your Chrome browser
+- Install the dependencies with and run the local server
+- The CryptoKittyDex will be viewable at http://localhost:3000/
 
 # Code Overview
 
-This repo contains a few components that will be useful for you to complete this project. These components are based on the [drizzle-react](https://github.com/trufflesuite/drizzle-react) examples
+This repo contains a few key components. These components are based on the [drizzle-react](https://github.com/trufflesuite/drizzle-react) examples
 
 ### containers/Loading.js
 
@@ -89,11 +80,3 @@ class App extends Component {
   }
 }
 ```
-
-## components/Browser.js
-
-Once you have the Smart Contract's ABI, uncomment the lines you need to add the contract to the drizzle store, and start building your solution.
-
-## Questions or comments
-
-For any questions or comments please contact `Dragos Rizescu <dragos.rizescu@consensys.net>` or `Ruben  Torres <ruben.torres@consensys.net>`

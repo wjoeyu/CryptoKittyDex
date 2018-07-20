@@ -1,9 +1,15 @@
 body, html {
   padding: 10px;
   font-family: Nunito;
-  font-size: 12px;
   color: #333;
   font-size: 16px;
+}
+
+h1 {
+  font-weight: 700;
+}
+h2 {
+  margin-bottom: 0px;
 }
 
 .loading {
@@ -27,12 +33,17 @@ body, html {
   display: inline-block;
 }
 
+.browser form {
+  display: inline;
+}
+
 .kitty-id {
-  height: 4.3rem;
+  height: 5.4rem;
   padding: 0 2rem;
   font-family: Nunito;
   font-size: 1.8rem;
   position: relative;
+  box-sizing: border-box;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -52,12 +63,14 @@ body, html {
 }
 
 .submit {
-  height: 4.5rem;
+  height: 5.4rem;
   padding: 0 2rem;
+  margin-right: .5em;
   font-family: Nunito;
   font-weight: 700;
   font-size: 1.8rem;
   box-shadow: 0 .2rem 0 0 #c23da8;
+  box-sizing: border-box;
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -82,7 +95,6 @@ body, html {
 }
 
 .rando-kitty {
-  margin-top: 1em;
   display: inline-flex;
   align-items: center;
   padding: 0 2rem;
