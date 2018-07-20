@@ -93,25 +93,3 @@ if (window.web3 === undefined || this.props.web3.status === 'failed') {
       </div>
     );
 ```
-
-## App.js
-
-Initializes the `DrizzleProvider` and wraps your app with the `Loading` component.
-
-```Javascript
-class App extends Component {
-  render() {
-    const drizzleOptions = {
-      contracts: []
-    };
-
-    return (
-      <DrizzleProvider options={drizzleOptions}>
-        <Loading>
-          <Browser />
-        </Loading>
-      </DrizzleProvider>
-    );
-  }
-}
-```
