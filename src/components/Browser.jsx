@@ -68,7 +68,9 @@ class Browser extends Component {
   }
 
   getRandomKitty() {
-    this.context.drizzle.contracts.CryptoKitties.methods.totalSupply().call().then(payload => this.getKitty(randomKittyId(payload)));
+    this.context.drizzle.contracts.CryptoKitties.methods.totalSupply().call().then(
+      payload => this.getKitty(randomKittyId(payload))
+    );
   }
 
 
@@ -115,7 +117,7 @@ class Browser extends Component {
                 <span>{this.state.kitty_birth_time}</span>
             </div> : ""}
           </div>
-          
+
       </div>
     );
   }
