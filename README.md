@@ -6,9 +6,9 @@
 
 CryptoKittyDex is a simple UI that will be able to interact with the Ethereum Blockchain, using web3.js and the [drizzle](https://truffleframework.com/docs/drizzle/getting-started) library. This UI will allow the user to type in a CryptoKitty's ID, and will display information about that Kitty.
 
-# Requirements to complete this challenge
+# Features
 
-- Given the address for the CryptoKitties Smart Contract: `0x06012c8cf97bead5deae237070f9587f8e7a266d` and its *ABI*, utilizing the smart contract methods we can query with a CryptoKitty ID and obtain and view a CryptoKitty's:
+- Given the address for the CryptoKitties Smart Contract: `0x06012c8cf97bead5deae237070f9587f8e7a266d` and its *ABI*, and utilizing the smart contract methods we can query with a CryptoKitty ID and obtain and view a CryptoKitty's:
   - Genes
   - Birth time
   - Generation
