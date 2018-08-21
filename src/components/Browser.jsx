@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { object } from 'prop-types';
 import Web3 from 'web3';
-import randomKittyId from './randomKittyId';
+import randomKittyId from './random_kitty_id';
+// import kittyImageUrl from './kitty_image_url';
 import KittyCoreABI from '../contracts/KittyCoreABI.json';
 import { CONTRACT_NAME, CONTRACT_ADDRESS } from '../config';
 
@@ -52,7 +53,9 @@ class Browser extends Component {
         kitty_genes: payload[9],
         kitty_generation: payload[8],
         kitty_birth_time: new Date(payload[5]*1000).toUTCString().slice(5,16),
-        kitty_url: `https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/${id}.svg`}));
+        kitty_url: `https://storage.googleapis.com/ck-kitty-image/0x06012c8cf97bead5deae237070f9587f8e7a266d/${id}.svg`
+
+      }));
   }
 
   handleSubmit(e) {
